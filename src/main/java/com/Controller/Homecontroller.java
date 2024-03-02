@@ -9,7 +9,9 @@ public class Homecontroller {
 	
 @RequestMapping("/")
 public String Index() {
+	System.out.println("Git Practice");
 	return "new";
+	
 }
 
 
